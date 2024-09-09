@@ -1,0 +1,39 @@
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+
+/* Description_Scroll */
+.desc_scroll ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: transparent background */
+}
+
+/* Hide scrollbar for Firefox */
+.desc_scroll {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+
+/* section_Home */
+.section_Home ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: transparent background */
+}
+
+/* Hide scrollbar for Firefox */
+.section_Home {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+
+/* main */
+main ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: transparent background */
+}
+
+/* Hide scrollbar for Firefox */
+main {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
